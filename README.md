@@ -1,62 +1,13 @@
-# CourierRush 2D — Skeleton Project
-
-Skeleton project for the Module 4 driving game built in Unity. In this module, you will create a complete top-down driving game with car movement, an infinite procedurally generated road network, a navigation system, and a score counter.
-
-This repository contains the starting files and assets used throughout the lectures. The gameplay systems are intentionally incomplete so you can build them step-by-step during the module.
-
----
-
-## Features You Will Build
-
-- Tilemap-based road chunk design
-- Infinite procedural world generation
-- Object pooling for performance
-- Car movement and steering
-- Smooth camera follow
-- Target spawning on road tiles
-- Arrow navigation system
-- Score counter
-
----
-
-## Project Setup
-
-1. Clone or download this repository.
-2. Open the project using Unity Hub.
-3. Open the `Scenes` folder.
-4. Run `SampleScene` to start the project.
-
----
-
-## Controls
-
-| Action | Key |
-|---|---|
-| Accelerate | W / Up Arrow |
-| Brake / Reverse | S / Down Arrow |
-| Steer Left | A / Left Arrow |
-| Steer Right | D / Right Arrow |
-
----
-
-## Folder Structure
-
-| Folder | Purpose |
-|---|---|
-| Scenes | Unity scenes |
-| Scripts | Gameplay scripts |
-| Sprites | Car, road, arrow, and target sprites |
-| Prefabs | Chunk prefabs and target prefab |
-| Tiles | Tilemap assets and tile palettes |
-| Audio | Music and sound effects |
-
----
-
-## Assets
- 
-This project uses assets from the following Kenney packs.
- 
-Kenney Assets:
-- https://kenney.nl/assets/racing-pack
-- https://kenney.nl/assets/game-icons
-- https://kenney.nl/assets/category:Audio
+# CourierRush 2D 
+Completed all required parts
+Add a delivery target that appears after the player picks up a package.
+The player must deliver the package to the delivery target to complete one delivery.
+After a delivery is completed, a new package must appear so the pickup and delivery loop can continue.
+Add a timer that limits how long the player can keep making deliveries.
+Display the timer on the screen using UI text.
+Add a delivery score counter that increases when the player completes a delivery.
+Display the delivery score on the screen using UI text.
+Add background music to the game.
+Add a sound effect when the player picks up a package or completed a delivery.
+Create at least four new road chunk prefabs that are different from the chunks created during the module.
+Include a complete gameplay loop with car movement, camera follow, road generation, package pickup, delivery targets, timer, score, music, and sound effects.
